@@ -8,7 +8,8 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
-  background-color: bisque;
+  background-color: #17082c;
+  background-image: linear-gradient(326deg, #17082c 0%, #1d0627 74%);
 }
 
 h1,
@@ -26,5 +27,74 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+}
+
+table tr {
+  color: #85888c;
+}
+
+.main {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+
+.main h1 {
+  margin-bottom: 60px;
+  color: #85888c;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 46px;
+}
+
+.left_side {
+  width: 300px;
+}
+
+.left_side .tite{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rigth_side {
+  width: 300px;
+}
+
+.rigth_side form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rigth_side form input[type="submit"] {
+  align-self: flex-end;
+}
+
+.rigth_side form input[type="text"] {
+  background-color: #17082c;
+  border: 0.9px solid #85888c;
+  padding: 10px 10px;
+  outline: none;
+  color: white;
+}
+.rigth_side form input[type="text"]:focus {
+  border: 0.9px solid white;
+}
+
+.rigth_side h3 {
+  color: #85888c;
+  margin-bottom: 20px;
+}
+
+.tite h3 {
+  color: #85888c;
+  margin-bottom: 20px;
+}
+
+@@media (max) {
+
 }

@@ -3,7 +3,7 @@
 
 <br />
 
-# Awesome Book
+# Leaderboard
 
 > This app is to manage todo list
 
@@ -17,6 +17,7 @@
 - Js
 - Linter
 - Webpack
+- Jest
 
 ## Mookup
 ![free](#)
@@ -39,19 +40,14 @@
 - Twitter: [@twitterhandle](#)
 - LinkedIn: [LinkedIn](#)
 
+## Collaborators
+
 👥 **Co Author :**
 
 - GitHub: [@githubhandle](#)
 - Twitter: [@twitterhandle](#)
 - LinkedIn: [LinkedIn](#)
 
-## Collaborators
-
-👤 **David Ger**
-
-- GitHub: [@ger619](https://github.com/ger619)
-- Twitter: [@abol_ger](https://twitter.com/ger_abol)
-- LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
 
 ## Install
 
@@ -74,6 +70,7 @@ Track JavaScript linter errors run:
 ```
 npx eslint ."
 ```
+
 ### Run local server
 [Node live server](#)is easy to install and use:
 

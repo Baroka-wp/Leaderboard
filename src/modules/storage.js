@@ -9,6 +9,6 @@ export default class Storage {
 
   static getItems() {
     this.store = JSON.parse(localStorage.getItem('LeaderBoard') || '[]');
-    return this.store
+    return this.store;
   }
 }

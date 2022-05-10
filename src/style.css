@@ -54,7 +54,7 @@ table tr {
   width: 300px;
 }
 
-.left_side .tite{
+.left_side .tite {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,6 +81,7 @@ table tr {
   outline: none;
   color: white;
 }
+
 .rigth_side form input[type="text"]:focus {
   border: 0.9px solid white;
 }
@@ -93,8 +94,4 @@ table tr {
 .tite h3 {
   color: #85888c;
   margin-bottom: 20px;
-}
-
-@@media (max) {
-
 }

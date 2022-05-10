@@ -1,11 +1,10 @@
 export default class LeaderBoard {
-  constructor(board){
+  constructor(board) {
     this.board = board;
   }
 
-  add(newLeard){
+  add(newLeard) {
     this.board.push(newLeard);
-    return this.board
+    return this.board;
   }
-
 }

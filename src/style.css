@@ -35,8 +35,8 @@ table tr {
 
 .main {
   position: absolute;
-  left: 30%;
-  top: 20%;
+  left: 10%;
+  top: 10%;
 }
 
 .main h1 {
@@ -47,7 +47,8 @@ table tr {
 .container {
   display: flex;
   flex-wrap: wrap-reverse;
-  gap: 46px;
+  align-items: stretch;
+  gap: 106px;
 }
 
 .left_side {

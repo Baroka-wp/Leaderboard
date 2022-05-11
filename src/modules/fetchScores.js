@@ -1,13 +1,11 @@
 import Storage from './storage.js';
 
 export default class FetchScores {
-  constructor(){}
-
-  static getScore(url){
+  static getScore(url) {
     fetch(url)
-      .then(response => response.json())
-      .then(json => {
-        Storage.setItems(json.result)
+      .then((response) => response.json())
+      .then((json) => {
+        Storage.setItems(json.result);
         const output = document.querySelector('.output');
         output.innerHTML = '';
         json.result.forEach((item) => {
@@ -22,14 +20,14 @@ export default class FetchScores {
     fetch(url, {
       method: 'POST',
       body: JSON.stringify({
-        user: user,
-        score: score,
+        user,
+        score,
       }),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
     })
-    .then((response) => response.json())
-    .then((json) => console.log(json.result));
+      .then((response) => response.json())
+      .then((json) => json.result);
   }
 }

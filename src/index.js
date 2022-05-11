@@ -1,10 +1,11 @@
+/* eslint-disable no-restricted-globals */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import FetchScores from './modules/fetchScores.js';
 import Storage from './modules/storage.js';
 import loadBoardList from './modules/loadBoardList.js';
 
-loadBoardList(Storage.getItems())
+loadBoardList(Storage.getItems());
 
 const base = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
 const gameId = 'lmYPJANHEnXMLoT04aEx';
@@ -16,14 +17,13 @@ document.querySelector('form').addEventListener('submit', (e) => {
   const score = document.querySelector('.score');
   const scoreInt = parseInt(score.value, 10);
   const msg = document.querySelector('.msg');
-
-  if (name.value !== '' && scoreInt !== NaN) {
-    FetchScores.sendScore(url,name.value,score.value)
+  if (name.value !== '' && !isNaN(scoreInt)) {
+    FetchScores.sendScore(url, name.value, score.value);
     name.value = '';
     score.value = '';
     msg.innerHTML = 'Succesffully publised ! 🥳';
     msg.style.color = 'green';
-  } else if (score.value === '' || name.value === '') {
+  } else {
     const msg = document.querySelector('.msg');
     msg.innerHTML = ' 🙁 Someting went wrong !';
     msg.style.color = 'red';
@@ -32,5 +32,5 @@ document.querySelector('form').addEventListener('submit', (e) => {
 
 document.querySelector('.refresh').addEventListener('click', (e) => {
   e.preventDefault();
-  FetchScores.getScore(url)
+  FetchScores.getScore(url);
 });

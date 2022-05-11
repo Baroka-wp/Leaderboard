@@ -3,7 +3,7 @@ const loadBoardList = (obj) => {
   output.innerHTML = '';
   obj.forEach((item) => {
     const tr = document.createElement('tr');
-    tr.innerHTML = `${item.name} : ${item.score}`;
+    tr.innerHTML = `${item.user} : ${item.score}`;
     output.appendChild(tr);
   });
 };

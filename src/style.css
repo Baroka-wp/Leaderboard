@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@font-face { font-family: "Anger Style"; src: url("../fonts/AngerStyles.ttf"); }
+
+@font-face { font-family: "Chellin"; src: url("../fonts/AngerStyles.ttf"); }
+
 * {
   scroll-behavior: smooth;
 }
@@ -26,28 +30,53 @@ ul {
 }
 
 a {
+  color: whitesmoke;
   text-decoration: none;
 }
 
+a:hover {
+  color: whitesmoke;
+}
+
 table tr {
-  color: #85888c;
+  color: whitesmoke;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 13px 2px #0000006e;
+  background-color: #85888c;
+}
+
+header h1 {
+  font-family: "Anger Style", sans-serif;
+  color: whitesmoke;
+  font-size: 35px;
+  padding: 10px 0;
+  width: 85%;
 }
 
 .main {
-  position: absolute;
-  left: 10%;
-  top: 10%;
+  margin: 150px 0 20px 0;
 }
 
 .main h1 {
+  text-align: center;
   margin-bottom: 60px;
-  color: #85888c;
+  color: whitesmoke;
 }
 
 .container {
   display: flex;
-  flex-wrap: wrap-reverse;
-  align-items: stretch;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 106px;
 }
 
@@ -95,4 +124,30 @@ table tr {
 .tite h3 {
   color: #85888c;
   margin-bottom: 20px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: whitesmoke;
+}
+
+.humberger {
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #17082c;
+  height: 7.5vh;
+  width: 100%;
 }

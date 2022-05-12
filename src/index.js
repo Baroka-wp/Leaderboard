@@ -22,7 +22,7 @@ document.querySelector('form').addEventListener('submit', async (e) => {
     name.value = '';
     score.value = '';
     msg.innerHTML = 'Succesffully publised ! 🥳';
-    msg.style.color = 'green';
+    msg.style.color = 'whitesmoke';
   } else {
     const msg = document.querySelector('.msg');
     msg.innerHTML = ' 🙁 Someting went wrong !';

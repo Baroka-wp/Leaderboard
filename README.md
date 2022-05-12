@@ -5,10 +5,7 @@
 
 # Leaderboard
 
-> This app is to manage todo list
-
-## LOOM VIDEO PRESENTING
-[Watch the presentation of the projet on Loom](#)
+> This app is to manage leaderBoard List
 
 ## Built With
 
@@ -19,39 +16,45 @@
 - Webpack
 - Jest
 
-## Mookup
-![free](#)
-
-## Live
-
-[Go Live](https://baroka-wp.github.io/toDoProject/)
 
 ## Authors
 
 👤 **Author : IROTORI Baroka**
 
-- GitHub: [@githubhandle](https://github.com/Baroka-wp)
-- Twitter: [@twitterhandle](https://twitter.com/IrotoriB)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/baroka)
-
-👥 **Co Author :**
-
-- GitHub: [@githubhandle](#)
-- Twitter: [@twitterhandle](#)
-- LinkedIn: [LinkedIn](#)
-
-## Collaborators
-
-👥 **Co Author :**
-
-- GitHub: [@githubhandle](#)
-- Twitter: [@twitterhandle](#)
-- LinkedIn: [LinkedIn](#)
+- GitHub: [Baroka-wp](https://github.com/Baroka-wp)
+- Twitter: [irotoriB](https://twitter.com/IrotoriB)
+- LinkedIn: [baroka](www.linkedin.com/in/baroka)
 
 
 ## Install
 
+### Run the project in your local machine
+
+- Clone the repository
+```
+  git clone https://github.com/Baroka-wp/Leaderboard.git
+
+  cd Leaderboard
+
+```
+- install all dependances
+
+```
+npm install
+
+```
+
+- Run the server
+
+```
+npm start
+
+```
+- Open your browzer and go to [localhost:8080](http://localhost:8080/)
+
+
 ### Run Linters tests
+
 To track linter errors locally follow these steps:  
 
 Download all the dependencies run:
@@ -71,13 +74,7 @@ Track JavaScript linter errors run:
 npx eslint ."
 ```
 
-### Run local server
-[Node live server](#)is easy to install and use:
 
-- Run webpack server
-```
-  npm start
-```
 
 ### Deployment
 - github page

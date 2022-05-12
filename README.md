@@ -35,20 +35,17 @@
   git clone https://github.com/Baroka-wp/Leaderboard.git
 
   cd Leaderboard
-
 ```
 - install all dependances
 
 ```
 npm install
-
 ```
 
 - Run the server
 
 ```
 npm start
-
 ```
 - Open your browzer and go to [localhost:8080](http://localhost:8080/)
 

@@ -20,6 +20,9 @@
 
 [Leaderboard](https://silly-paletas-fae4de.netlify.app/)
 
+## Mockup
+![3-devices-white](https://user-images.githubusercontent.com/67879818/168242716-5fb51479-823b-41a9-9d78-57038cd730fd.png)
+
 ## Authors
 
 👤 **Author : IROTORI Baroka**

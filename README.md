@@ -16,6 +16,9 @@
 - Webpack
 - Jest
 
+## Live demo
+
+[Leaderboard](https://silly-paletas-fae4de.netlify.app/)
 
 ## Authors
 

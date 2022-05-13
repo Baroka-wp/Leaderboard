@@ -63,7 +63,7 @@ header h1 {
 }
 
 .main {
-  margin: 150px 0 20px 0;
+  margin: 100px 0 20px 0;
 }
 
 .main h1 {
@@ -81,7 +81,14 @@ header h1 {
 }
 
 .left_side {
-  width: 300px;
+  width: 400px;
+}
+
+.leaderList {
+  padding: 25px 10px;
+  height: 350px;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 .left_side .tite {
@@ -138,6 +145,17 @@ header h1 {
 
 .humberger {
   cursor: pointer;
+}
+
+.btn {
+  border: 1px solid #17082c;
+  background: white;
+}
+
+.btn:hover {
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  background: #aba5a5;
 }
 
 footer {
